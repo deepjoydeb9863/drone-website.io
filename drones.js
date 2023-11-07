@@ -12,9 +12,9 @@ document.addEventListener('DOMContentLoaded', function () {
         productDiv.className = 'product-box';
         productDiv.innerHTML = `
           <img src="${product.link}" alt="Product Image" class="product-image">
-          <h2 class="product-info">${product.title}</h2>
-          <h2 class="product-info price">Price: Rs.${product.price}</h2>
-          <h2 class="product-info">Rating: ${product.rating}</h2>
+          <h4 class="product-info">${product.title}</h4>
+          <h4 class="product-info price">Price: Rs.${product.price}</h4>
+          <h4 class="product-info">Rating: ${product.rating}</h4>
           <a href="${product['Buy Now']}" target="_blank" class="buy-button">Buy Now</a>
         `;
 
