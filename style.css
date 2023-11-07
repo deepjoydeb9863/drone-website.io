@@ -3210,54 +3210,40 @@ color: rgb(40, 39, 39);
 .column p{
     color: black;
 }
-/* style.css */
+    /* style.css */
 
-/* Define styles for the product grid */
 .product-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Three boxes per row */
     gap: 12px; /* Adjust the gap between boxes */
-}
-
-/* Define styles for each product box */
-.product-box {
+    justify-content: last baseline;
+    
+  }
+  
+  .product-box {
     border: 1px solid #ccc;
+    width: 400px;
     padding: 10px; /* Modify the padding to adjust the box size */
     text-align: center;
     border-radius: 5px;
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Modify the box shadow if needed */
-}
-
-/* Define styles for product images */
-.product-image img {
+  }
+  
+  .product-image img {
     width: 50%;
-    max-height: 200px; /* Adjust the maximum height of the image */
+    max-height: 30px; /* Adjust the maximum height of the image */
     object-fit: cover;
     border-radius: 5px;
     margin-bottom: 10px;
-}
-
-/* Define styles for product titles */
-.product-info h4 {
+  }
+  
+   .product.title h4 {
     margin-bottom: 5px;
     font-weight: 300;
     color: black;
-    font-size: 16px; /* Modify the font size as needed */
-}
-
-  
-/* Adjust other styling as needed */
-/* .drone-content{
-    width:50%;
-    font-size: 10px;
-    display: inline-block;
-    margin: auto;
-    text-align: center;
-    padding: 80px 50px 10px 50px;
-    background-position: center;
-    background-size: contain;
-} */
+    font-size: 5px; /* Modify the font size as needed */
+  }  
 
 
 
