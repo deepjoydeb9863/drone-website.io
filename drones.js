@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const productContainer = document.getElementById('product-container');
 
   // Fetch JSON data
-  fetch('/amazon data.json')
+  fetch('amazon data.json')
     .then((response) => response.json())
     .then((data) => {
       data.forEach((product) => {
